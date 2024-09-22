@@ -6,7 +6,7 @@ const s2 = "fed";
 const s3 = "Ted";
 const s4 = "bread";
 const s5 = "and";
-
+//"Fred fed Ted bread and Ted fed Fred bread".//
 // Concatenate the string variables into one new string
 
 let allNames = '';
@@ -16,6 +16,10 @@ allNames += ' ' + s2;
 allNames += ' ' + s3;
 allNames += ' ' + s4;
 allNames += ' ' + s5;
+allNames += ' ' + s3;
+allNames += ' ' + s2;
+allNames += ' ' + s1;
+allNames += ' ' + s4;
 
 // Print out the concatenated string
 
